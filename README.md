@@ -3,6 +3,7 @@ Lip Sync using Wav2Lip-HQ<br>
 Here they had using Wav2Lip-HQ where they use image super resolution and face segmentation.<br>
 Since the Wav2Lip having much issues in libraries during installation, here we donot get any any kind of library errors.<br>
 Steps:<br>
+
 1. The github repository is cloned.<br>
      git clone "https://github.com/Markfryazino/wav2lip-hq.git" <br>
 2. Installing gdown and the required files for the model<br>
@@ -23,4 +24,8 @@ The "gdown" library enables us to download larger files from the Google Drive.<b
     --face /path/ to/ source video <br>
     --audio /path /to /source audio <br>
     --outfile /desired /path /to /output <br>
-8. The final output video will be stored in result folder.
+8. The final output video will be stored in result folder.<br>
+
+
+Since this is a basic model and much optimization is needed to imporove the quality of lip sync.<br>
+Here the video is resized and trimmed for quality of lip sync. 
